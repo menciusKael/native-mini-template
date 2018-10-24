@@ -1,1 +1,2 @@
-# native-mini-template
+# 项目快速了解指南
+

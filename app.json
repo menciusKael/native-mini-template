@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/category/category",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/add-address/add-address"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "忆享",
+    "navigationBarTextStyle": "black"
+  }
+}

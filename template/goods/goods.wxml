@@ -1,0 +1,22 @@
+<!-- 基本为纯渲染、不涉及太多逻辑、请使用模板 -->
+
+<!-- 所有商品相关排版的模板，请全置于该文件，以name区分 -->
+
+<template name="goodsList_01">
+  <!-- 外层父容器, Flex使商品横向双排,超出换行 -->
+  <view class='high-quality'>
+    <!-- 循环渲染在此处使用<block> -->
+    <block wx:for="{{objArrData}}" wx:key="">
+      <!-- 商超-首页-品质优选 单个商品模板 -->
+      <navigator class='product-item-box' url=''>
+        <image class='product-img' src='{{item.imgSrc}}' mode='aspectFit'></image>
+        <view class='product-title  limit-two-line'>{{item.describe}}</view>
+        <view class='price-and-cart-img'>
+          <text class='price'>￥{{item.price}}</text>
+          <image class='cart-img' mode='widthFix' src='/images/cart_03.png'></image>
+        </view>
+      </navigator>
+    </block>
+  </view>
+</template>
+ 

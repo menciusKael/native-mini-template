@@ -1,0 +1,38 @@
+/* 多规格 */
+
+.option-box .option-name {
+  font-size: 18px;
+  color: #464646;
+  padding: 16rpx;
+  margin-bottom: 30rpx;
+}
+
+.option-box .option-child-box {
+  display: flex;
+  width: 96%;
+  margin: auto;
+  margin-bottom: 30rpx;
+  flex-wrap: wrap;
+  border-bottom: solid 1px #ebe8e8;
+}
+
+.option-box .option-child-box .option-value-box {
+  box-sizing: border-box;
+  border: solid 1px #a0a0a1;
+  border-radius: 8rpx;
+  color: #a0a0a1;
+  margin-right: 36rpx;
+  padding: 8rpx 20rpx;
+  margin-bottom: 46rpx;
+}
+
+/* 选中效果 */
+
+.option-box .option-child-box .option-value-box.checked {
+  box-sizing: border-box;
+  border: solid 1px #65d03c;
+  border-radius: 8rpx;
+  color: #65d03c;
+  margin-right: 36rpx;
+  padding: 8rpx 20rpx;
+}

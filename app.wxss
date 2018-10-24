@@ -1,0 +1,74 @@
+/* 引入图标字体样式 */
+@import "/images/iconfont/iconfont.wxss";
+
+/* 页面字体、高度、盒模型 */
+
+page {
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  background-color: #fff;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Flex相关 */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 左右间距的 banner */
+
+.banner {
+  padding: 16rpx;
+  box-sizing: border-box;
+}
+
+/* 居中相关 */
+
+/* 定位上下左右居中  父 position : relative; */
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 定位上下 top bottom center 居中 */
+
+.tbc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* 定位左右 left right center 居中 */
+
+.lrc {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 限制两行文字 */
+
+.limit-two-line {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+/* 滚动条隐藏 */
+
+::webket-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}

@@ -1,0 +1,20 @@
+<view>
+
+  <!-- 多规格选择-->
+  <view class='option-box'>
+    <block wx:for="{{option}}" wx:for-index="idx" wx:for-item="optionItem" wx:key="{{index}}">
+      <!-- 规格名 -->
+      <view class='option-name'>{{optionItem.name}}</view>
+      <!-- 规格项 -->
+      <view class='option-child-box'>
+        <block wx:for="{{optionItem.optionChild}}" wx:key="{{index}}">
+          <!-- 规格值 -->
+          <view class='option-value-box {{item.checked ? "checked" : "" }}' bindtap='onAttrChoose' data-fuindex="{{idx}}" data-ziindex="{{index}}">
+            {{item.name}}
+          </view>
+        </block>
+      </view>
+    </block>
+  </view>
+
+</view>

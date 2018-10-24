@@ -1,0 +1,2 @@
+/* 引入商品模板样式文件  当使用地方较多时，亦可考虑全局引入 */
+@import "../../template/goods/goods.wxss";

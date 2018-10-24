@@ -1,0 +1,45 @@
+/* 商品列表模板一  start*/
+
+.high-quality {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 32rpx 16rpx 0rpx 16rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item-box {
+  width: 47%;
+  margin-bottom: 35rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-item-box .product-img {
+  width: 335rpx;
+  height: 240rpx;
+  border: solid 1px #e4e2e2;
+}
+
+.product-item-box .product-title {
+  margin: 15rpx auto;
+}
+
+.product-item-box .price-and-cart-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-item-box .price-and-cart-img .price {
+  color: #4ab12e;
+}
+
+.product-item-box .price-and-cart-img .cart-img {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+/* 商品列表模板一  end*/
